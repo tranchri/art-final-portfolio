@@ -14,14 +14,10 @@
 .info-button,
 .info-button::before,
 .info-button::after {
-	font-family: "Droidiga";
+	font-family: "Droidiga", sans-serif;
 	height: 8em;
 	width: 12em;
 	outline: 0;
-}
-
-.info-button:hover {
-	background-color: #eee;
 }
 
 .green-light {
@@ -30,4 +26,9 @@
 
 .green-dark {
 	background-color: #4ED2B5;
+}
+
+.aboutText,
+.workText {
+	display: none;
 }
