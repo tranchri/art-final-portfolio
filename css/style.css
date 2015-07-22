@@ -1,0 +1,33 @@
+.content {
+	padding: 8% 5% 8% 5%;
+}
+
+.spaced {
+	padding-bottom: 2%;
+}
+
+@font-face {
+	font-family: "Droidiga";
+	src: url("Droidiga.otf");
+}
+
+.info-button,
+.info-button::before,
+.info-button::after {
+	font-family: "Droidiga";
+	height: 8em;
+	width: 12em;
+	outline: 0;
+}
+
+.info-button:hover {
+	background-color: #eee;
+}
+
+.green-light {
+	background-color: #8CDCCA;
+}
+
+.green-dark {
+	background-color: #4ED2B5;
+}
