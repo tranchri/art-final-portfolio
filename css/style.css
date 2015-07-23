@@ -3,7 +3,7 @@ h1 {
 	font-weight: 700;
 	border-top: 5px solid #2F2B47;
 	color: #2F2B47 !important;
-	font-size: 5em;
+	font-size: 11vh;
 }
 
 p {
@@ -16,8 +16,6 @@ body {
 	background-size: cover;
 	background-repeat: none;
 	background-position: center center;
-	width: 100%;
-	height: 100%;
 }
 
 .panel {
