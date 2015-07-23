@@ -12,7 +12,7 @@ p {
 }
 
 body {
-	background-image: url("/img/BG.svg");
+	background-image: url("/img/triangleBG.svg");
 	background-size: cover;
 	background-repeat: none;
 	background-position: center center;
