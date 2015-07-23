@@ -1,21 +1,37 @@
-.content {
-	padding: 8% 5% 8% 5%;
+h1 {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: 700;
+	border-top: 5px solid #2F2B47;
+	color: #2F2B47 !important;
+	font-size: 5em;
 }
 
-.spaced {
-	padding-bottom: 3%;
+p {
+	font-family: "Lato", Arial, sans-serif;
+	font-weight: 300;
 }
 
-@font-face {
-	font-family: "Droidiga";
-	src: url("fonts/Droidiga.otf");
+body {
+	background-image: url("/img/BG.svg");
+	background-size: cover;
+	background-repeat: none;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+}
+
+.panel {
+	padding-top: 3%;
+	background-color: white;
+	border-style: none;
 }
 
 .info-button,
 .info-button::before,
 .info-button::after {
-	font-family: "Droidiga", sans-serif;
-	height: 8em;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	height: 7em;
 	width: 12em;
 	outline: 0;
 }
