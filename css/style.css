@@ -1,15 +1,27 @@
+html {
+	/* Base rem reference. */
+	font-size: 16px;
+}
+
 h1 {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: 700;
 	border-top: 5px solid #2F2B47;
 	color: #2F2B47 !important;
-	font-size: 11vh;
+	font-size: 5rem;
+}
+
+/* Handle h1 font-size on mobile devices. */
+@media (max-width: 400px) {
+	h1 {
+		font-size: 11vh;
+	}
 }
 
 p {
 	font-family: "Lato", Arial, sans-serif;
 	font-weight: 300;
-	font-size: 2.2vh;
+	font-size: 1rem;
 }
 
 body {
@@ -20,7 +32,7 @@ body {
 }
 
 .panel {
-	padding-top: 3%;
+	padding-top: 3rem;
 	background-color: white;
 	border-style: none;
 }
@@ -30,9 +42,9 @@ body {
 .info-button::after {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
-	font-size: 2.2vh;
-	height: 15.5vh;
-	width: 26.5vh;
+	font-size: 1rem;
+	height: 7rem;
+	width: 12rem;
 	outline: 0;
 }
 
