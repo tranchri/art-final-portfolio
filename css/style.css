@@ -6,9 +6,11 @@ html {
 h1 {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: 700;
-	border-top: 5px solid #2F2B47;
+	border-top: 15px solid #2F2B47;
 	color: #2F2B47 !important;
 	font-size: 5rem;
+	padding: 20px 0 20px 0;
+	text-align: right;
 }
 
 /* Handle h1 font-size on mobile devices. */
@@ -22,41 +24,24 @@ p {
 	font-family: "Lato", Arial, sans-serif;
 	font-weight: 300;
 	font-size: 1rem;
+	text-align: left;
 }
 
 body {
-	background-image: url("/img/triangleBG.svg");
+	background-image: url("../img/triangleBG.svg");
 	background-size: cover;
 	background-repeat: none;
 	background-position: center center;
 }
 
 .panel {
-	padding-top: 3rem;
+	margin: 0;
+	padding-top: 2.3rem;
 	background-color: white;
 	border-style: none;
 }
 
-.info-button,
-.info-button::before,
-.info-button::after {
-	font-family: "Open Sans", sans-serif;
-	font-weight: 400;
-	font-size: 1rem;
-	height: 7rem;
-	width: 12rem;
-	outline: 0;
-}
-
-.green-light {
-	background-color: #8CDCCA;
-}
-
-.green-dark {
-	background-color: #4ED2B5;
-}
-
-.aboutText,
-.workText {
-	display: none;
+a, a:hover, a:visited {
+	color: #2F2B47;
+	text-decoration: underline;
 }
