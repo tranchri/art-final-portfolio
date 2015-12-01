@@ -1,0 +1,174 @@
+/********************************
+	GENERAL
+********************************/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #fff;
+	color: #202020;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+section {
+	display: block;
+	width: 60%;
+	margin: 50px auto;
+	padding: 10px auto 0;
+}
+
+ul li input[type=text],
+ul li textarea {
+  	display:none;
+}
+
+li {
+	list-style: none;
+	overflow: auto;
+	margin: 0px;
+}
+
+input {
+	outline: none;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 5px auto 0;
+}
+
+h3 {
+	font-weight: 400;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #202020;
+}
+
+label {
+	clear:both;
+	display: block;
+}
+
+input[type="text"] {
+	display: block;
+	margin: 5px auto;
+	font-size: 14px;
+	height: 14px;
+	width: 75%;
+	padding: 10px;
+	border: 1px solid #dadada;
+	background: #fff;
+	border-radius: 6px;
+}
+
+textarea {
+	display: block;
+	margin: 5px auto;
+	font-size: 14px;
+  	height: 100px;
+	width: 75%;
+	padding: 10px;
+	border: 1px solid #dadada;
+	background: #fff;
+	border-radius: 6px;
+	outline: none;
+	resize: none;
+	overflow: auto;
+}
+
+
+/********************************
+	HEADER
+********************************/
+
+header {
+	font-weight: 300;
+	font-size: 42px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+/********************************
+	NOTES
+********************************/
+
+.note-header .note-title {
+	float: left;
+}
+
+.note-header .modify-buttons {
+	float: right;
+}
+
+.note-style {
+	background: #fff;
+	display: block;
+	width: 94%;
+	padding: 3%;
+	margin: 30px 0;
+	border-left: 5px solid #ffde00;
+	box-shadow: 0px 0.5px 3px #e4e4e4;
+}
+
+
+/********************************
+	BUTTONS
+********************************/
+
+button {
+	border: none;
+	background: #fff;
+	margin: 0 2px 0;
+}
+
+button:focus {
+	outline: none;
+}
+
+.center-button {
+	display: block;
+	margin: 0 auto;
+	width: 21.75px;
+}
+
+.fi-plus {
+	color: #dadada;
+	font-size: 30px;
+}
+
+.fi-pencil, .fi-trash {
+	color: #dadada;
+	margin: 0;
+}
+
+button:hover .fi-plus,
+button:hover .fi-pencil,
+button:hover .fi-trash {
+	color: #ffde00;
+}
+
+
+/********************************
+	EDIT MODE
+********************************/
+
+ul li.edit-mode input[type=text],
+ul li.edit-mode textarea {
+  	display:block;
+	float: left;
+  	color: #202020;
+}
+
+ul li.edit-mode label,
+ul li.edit-mode div.note-header h3.note-title {
+ 	display:none;
+}
+
