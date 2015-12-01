@@ -7,20 +7,23 @@
 	margin: 0;
 }
 
+html {
+	font-size: 14px;
+}
+
 body {
 	background: #fff;
 	color: #202020;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: 300;
-	font-size: 14px;
 	line-height: 20px;
 }
 
 section {
 	display: block;
-	width: 60%;
+	width: 94%;
 	margin: 50px auto;
-	padding: 10px auto 0;
+	padding: 3% auto;
 }
 
 ul li input[type=text],
@@ -42,7 +45,7 @@ h2 {
 	font-weight: 400;
 	font-size: 18px;
 	text-transform: uppercase;
-	margin: 5px auto 0;
+	margin: 5px auto 30px;
 }
 
 h3 {
@@ -59,7 +62,6 @@ label {
 input[type="text"] {
 	display: block;
 	margin: 5px auto;
-	font-size: 14px;
 	height: 14px;
 	width: 75%;
 	padding: 10px;
@@ -71,7 +73,6 @@ input[type="text"] {
 textarea {
 	display: block;
 	margin: 5px auto;
-	font-size: 14px;
   	height: 100px;
 	width: 75%;
 	padding: 10px;
@@ -81,6 +82,7 @@ textarea {
 	outline: none;
 	resize: none;
 	overflow: auto;
+	box-shadow: none;
 }
 
 
@@ -104,8 +106,9 @@ header {
 	float: left;
 }
 
-.note-header .modify-buttons {
+.modify-buttons {
 	float: right;
+	margin-right: 5px;
 }
 
 .note-style {
@@ -113,7 +116,7 @@ header {
 	display: block;
 	width: 94%;
 	padding: 3%;
-	margin: 30px 0;
+	margin-bottom: 30px;
 	border-left: 5px solid #ffde00;
 	box-shadow: 0px 0.5px 3px #e4e4e4;
 }
@@ -146,12 +149,13 @@ button:focus {
 
 .fi-pencil, .fi-trash {
 	color: #dadada;
-	margin: 0;
+	margin: 0 4px;
+	font-size: 18px;
 }
 
-button:hover .fi-plus,
-button:hover .fi-pencil,
-button:hover .fi-trash {
+button:active .fi-plus,
+button:active .fi-pencil,
+button:active .fi-trash {
 	color: #ffde00;
 }
 
@@ -171,4 +175,3 @@ ul li.edit-mode label,
 ul li.edit-mode div.note-header h3.note-title {
  	display:none;
 }
-
