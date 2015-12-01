@@ -167,7 +167,7 @@ button:active .fi-trash {
 ul li.edit-mode input[type=text],
 ul li.edit-mode textarea {
   	display:block;
-	float: left;
+	clear: both;
   	color: #202020;
 }
 
