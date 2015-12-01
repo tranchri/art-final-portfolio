@@ -35,10 +35,10 @@ function createNewNoteElem(id, titleValue, textValue) {
 	label.innerText = textValue;
 	noteText.innerText = textValue;
 
+	newNote.appendChild(modifyButtonContainer);
 	newNote.appendChild(noteHeader);
 	noteHeader.appendChild(noteTitle);
 	noteHeader.appendChild(noteTitleInput);
-	noteHeader.appendChild(modifyButtonContainer);
 	modifyButtonContainer.appendChild(editButton);
 	editButton.appendChild(editButtonIcon);
 	modifyButtonContainer.appendChild(deleteButton);
