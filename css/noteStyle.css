@@ -148,6 +148,7 @@ button:focus {
 }
 
 .fi-pencil, .fi-trash {
+	text-align: right;
 	color: #dadada;
 	margin: 0 4px;
 	font-size: 18px;
@@ -167,7 +168,7 @@ button:active .fi-trash {
 ul li.edit-mode input[type=text],
 ul li.edit-mode textarea {
   	display:block;
-	clear: both;
+  	clear: both;
   	color: #202020;
 }
 
