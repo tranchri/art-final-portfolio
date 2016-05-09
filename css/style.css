@@ -1,14 +1,14 @@
 html {
 	/* Base rem reference. */
-	font-size: 16px;
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 h1 {
-	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: 700;
 	border-top: 15px solid #2F2B47;
 	color: #2F2B47 !important;
-	font-size: 5rem;
+	font-size: 3rem;
 	padding: 20px 0 20px 0;
 	text-align: right;
 }
@@ -21,17 +21,31 @@ h1 {
 }
 
 p {
-	font-family: "Lato", Arial, sans-serif;
 	font-weight: 300;
 	font-size: 1rem;
 	text-align: left;
 }
 
 body {
-	background-image: url("../img/triangleBG.svg");
-	background-size: cover;
-	background-repeat: none;
-	background-position: center center;
+}
+
+footer {
+	font-size: .8rem;
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.breathe-top {
+	margin-top: 1rem;
+}
+
+.site-title {
+	font-weight: 700;
+	font-size: 3.43rem;
 }
 
 .panel {
