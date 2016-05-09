@@ -1,51 +1,23 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Christine Tran</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="fonts/foundation-icons/foundation-icons.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/vendor/modernizr.js"></script>
-  </head>
-  <body>
-    <div class="panel">
-      <div class="row">
-        <div class="large-12 columns">
-          <h1>christine tran</h1>
-        </div>
-      </div>
+---
+layout: default
+---
 
-      <!-- Main body -->
-      <div class="row">
-        <div class="large-12 columns">
-       	  <p>
-            Hello there.  I’m a senior studying Computer Science and Studio Art at Grinnell College in Iowa.  I like code and art, and I have recently started messing around with Arduinos and LEDs in an attempt to combine the two!  Besides that, I like to read in my spare time.  Two favorites that I've read recently are <i>The Martian</i> by Andy Weir and <i>Out</i> by Natsuo Kirino.  
-          </p>
-          <p>
-          	I'm excited to be joining <a href="https://www.raise.me/">Raise</a> this summer as a full stack software engineer!  Here is my <a href="img/CT2016.pdf">resume</a> if you’re curious, and check out my Behance page if you want to see some of my artwork!
-          </p>
+<div class="home">
 
-        </div>
-      </div>
+  <h1 class="page-heading">Posts</h1>
 
-      <!-- Social media links -->
-      <div class="row">
-        <div class="small-6 medium-3 large-3 columns text-center"><a href="https://www.linkedin.com/in/ctine"><i class="fi-social-linkedin icon-size"></i></a></div>
-        <div class="small-6 medium-3 large-3 columns text-center"><a href="https://github.com/tranchri"><i class="fi-social-github icon-size"></i></a></div>
-        <div class="small-6 medium-3 large-3 columns text-center"><a href="https://www.behance.net/ctine"><i class="fi-social-behance icon-size"></i></a></div>
-        <div class="small-6 medium-3 large-3 columns text-center"><a href="mailto:ctine.tn@gmail.com"><i class="fi-mail icon-size"></i></a></div>
-      </div>
-    </div>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-    $(document).foundation();
-    </script>
-  </body>
-</html>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
