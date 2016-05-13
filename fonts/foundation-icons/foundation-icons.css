@@ -18,6 +18,8 @@
 .icon-size {
   font-size: 2rem;
   color: #1C1C1C;
+  margin-left: .5rem;
+  margin-right: .5rem;
 }
 
 .icon-size:hover {
