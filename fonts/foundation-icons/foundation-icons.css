@@ -16,12 +16,14 @@
 }
 
 .icon-size {
-  font-size: 5rem;
-  color: #80DBCA;
+  font-size: 2rem;
+  color: #1C1C1C;
+  margin-left: .5rem;
+  margin-right: .5rem;
 }
 
 .icon-size:hover {
-  color: #80DBCA;
+  color: #1C1C1C;
 }
 
 .fi-address-book:before,

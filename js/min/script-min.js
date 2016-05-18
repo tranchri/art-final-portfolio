@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".aboutButton").click(function(){$(".workText").is(":visible")&&$(".workText").fadeToggle(300),$(".aboutText").fadeToggle(300)}),$(".workButton").click(function(){$(".aboutText").is(":visible")&&$(".aboutText").fadeToggle(300),$(".workText").fadeToggle(300)})});

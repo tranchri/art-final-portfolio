@@ -1,37 +1,46 @@
 html {
 	/* Base rem reference. */
-	font-size: 16px;
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #1C1C1C;
 }
 
 h1 {
-	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: 700;
-	border-top: 15px solid #2F2B47;
-	color: #2F2B47 !important;
-	font-size: 5rem;
-	padding: 20px 0 20px 0;
-	text-align: right;
+	color: #1C1C1C;
+	font-size: 2.57rem;
 }
 
 /* Handle h1 font-size on mobile devices. */
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
 	h1 {
 		font-size: 11vh;
 	}
 }
+*/
 
-p {
-	font-family: "Lato", Arial, sans-serif;
-	font-weight: 300;
-	font-size: 1rem;
-	text-align: left;
+footer {
+	font-size: .8rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
-body {
-	background-image: url("../img/triangleBG.svg");
-	background-size: cover;
-	background-repeat: none;
-	background-position: center center;
+ul {
+	list-style-type: none;
+}
+
+.breathe-top {
+	margin-top: 1rem;
+}
+
+.site-title {
+	margin-top: 1rem;
+	font-weight: 700;
+	font-size: 3.43rem;
+}
+
+a, a:hover, a.focus{
+	color: #1C1C1C;
 }
 
 .panel {
@@ -39,9 +48,4 @@ body {
 	padding-top: 2.3rem;
 	background-color: white;
 	border-style: none;
-}
-
-a, a:hover, a:visited {
-	color: #2F2B47;
-	text-decoration: underline;
 }
