@@ -5,7 +5,7 @@ permalink: /smoke/
 ---
 
 2016  
-Plexiglass 
+Plexiglass, soot  
 11.5" x 34.5" x 11.5"  
 
 ![Full documentation shot of Smoke.]({{ root }}/img/smoke_full.jpg)
