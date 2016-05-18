@@ -3219,11 +3219,11 @@ table.hover tr:nth-of-type(even):hover {
   display: inline-block;
   line-height: 0;
   max-width: 100%;
-  transition: box-shadow 200ms ease-out;
+/*  transition: box-shadow 200ms ease-out;*/
   border-radius: 0;
   margin-bottom: 1rem; }
-  .thumbnail:hover, .thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5); }
+/*  .thumbnail:hover, .thumbnail:focus {
+    box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5); }*/
 
 .title-bar {
   background: #0a0a0a;
